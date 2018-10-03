@@ -5,7 +5,7 @@ object newClass {
 
   // declare a var to for the user input
 
-  var prompt = "Please enter the string to which you 555 would like to find the data type";
+  var prompt = "Please enter the string to which you 555 would like to find the data type trial";
 
   val numberPattern: Regex = "[0-9]".r
 
