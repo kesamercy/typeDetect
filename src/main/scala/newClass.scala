@@ -8,9 +8,7 @@ object newClass {
 
   var prompt = "Please enter the string to which you 555 296574598 would like to find the data type trial"
 
-
-
-  //detect an int
+  val address = "123 Main Street Suite 101"
 
 
 
@@ -19,13 +17,10 @@ object newClass {
 
 
     val numberPattern: Regex = "[0-9]".r
-
-    val address = "123 Main Street Suite 101"
-
-    val match1 = numberPattern.findAllIn(prompt)
+    val match1 = numberPattern.findAllIn(address)
 
 
-    return (match1)
+    return match1
 
 
 
@@ -86,7 +81,7 @@ def main(args: Array[String]): Unit = {
 
   println(prompt)
 
-  match1.foreach(println)
+  findInt().foreach(println)
 
 }
 
