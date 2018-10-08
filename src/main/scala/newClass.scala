@@ -5,20 +5,27 @@ object newClass {
 
   // declare a var to for the user input
 
-  var prompt = "Please enter the string to which you 555 would like to find the data type trial"
+  var prompt = "Please enter the string to which you 555 296574598 would like to find the data type trial"
 
-    val numberPattern: Regex = "[0-9]".r
 
-    val address = "123 Main Street Suite 101"
 
-    val match1 = numberPattern.findFirstIn(address)
+  //detect an int
 
 
 
 
 
   //detect int
-  def findInt ( ): Unit = {
+  def findInt ( numberPattern: Int, address: Int, match1: String): Int = {
+
+
+    val numberPattern: Regex = "[0-9]".r
+
+    val address = "123 Main Street Suite 101"
+
+    val match1 = numberPattern.findAllIn(prompt)
+
+
 
 
 
@@ -79,6 +86,10 @@ def main(args: Array[String]): Unit = {
 
   println(prompt)
 
+
+  match1.foreach(println)
+
+//  println(match1)
 }
 
 
