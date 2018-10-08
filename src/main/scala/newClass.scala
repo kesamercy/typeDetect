@@ -1,5 +1,6 @@
 
 import scala.util.matching.Regex
+import scala.util.matching.Regex.MatchIterator
 
 object newClass {
 
@@ -13,10 +14,8 @@ object newClass {
 
 
 
-
-
   //detect int
-  def findInt ( numberPattern: Int, address: Int, match1: String): Int = {
+  def findInt ( ): MatchIterator = {
 
 
     val numberPattern: Regex = "[0-9]".r
@@ -26,6 +25,7 @@ object newClass {
     val match1 = numberPattern.findAllIn(prompt)
 
 
+    return (match1)
 
 
 
@@ -86,10 +86,8 @@ def main(args: Array[String]): Unit = {
 
   println(prompt)
 
-
   match1.foreach(println)
 
-//  println(match1)
 }
 
 
