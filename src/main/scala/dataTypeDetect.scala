@@ -5,20 +5,18 @@ import scala.util.matching.Regex.MatchIterator
 
 object dataTypeDetect {
 
-  /*
+  //declare variables
 
-//  def class testCases;
-//
-//  val tc = new testCases;
-//
 
-*/
+
+  //create object for testCases class
+  val ts = new testCases( )
 
   //detect int
   def findInt ( ): MatchIterator = {
 
     val numberPattern: Regex = "[0-9]".r
-    val match1 = numberPattern.findAllIn(address)
+    val match1 = numberPattern.findAllIn(ts.address)
 
     return match1
   }
@@ -28,7 +26,7 @@ object dataTypeDetect {
   def findFloat ( ): MatchIterator = {
 
     val floatPattern: Regex = "[+-]?([0-9]*[.])?[0-9]+".r
-    val match2 = floatPattern.findAllIn(floaty)
+    val match2 = floatPattern.findAllIn(ts.floaty)
 
     return match2
 
@@ -41,7 +39,7 @@ object dataTypeDetect {
   def findDate ( ): MatchIterator ={
 
     val datePattern: Regex = "(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\\d\\d".r
-    val match3 = datePattern.findAllIn(date)
+    val match3 = datePattern.findAllIn(ts.date)
 
     return match3
 
@@ -54,7 +52,7 @@ object dataTypeDetect {
   def findBool ( ): MatchIterator ={
 
     val boolPattern: Regex = "([Vv]+(erdade(iro)?)?|[Ff]+(als[eo])?|[Tt]+(rue)?|0|[\\+\\-]?1)".r
-    val match4 = boolPattern.findAllIn(booly)
+    val match4 = boolPattern.findAllIn(ts.booly)
 
     return match4
 
@@ -75,15 +73,24 @@ object dataTypeDetect {
 
    }
 
+  /*def countInt ( ): Int = {
+
+    var count = 0;
+
+    count = findInt().foreach(count);
+
+    return count
+  }*/
+
 
 def main(args: Array[String]): Unit = {
 
 
-  println(prompt)
+//  println(ts.prompt)
 
-  findInt().foreach(println)
+  findInt().length
 
-  findFloat().foreach(println)
+  /*findFloat().foreach(println)
 
   findDate().foreach(println)
 
@@ -91,7 +98,7 @@ def main(args: Array[String]): Unit = {
 
   findTime().foreach(println)
 
-
+*/
 
 }
 
