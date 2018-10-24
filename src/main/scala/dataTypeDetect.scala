@@ -88,7 +88,7 @@ def main(args: Array[String]): Unit = {
 
 //  println(ts.prompt)
 
-  findInt().length
+  println(s"${findInt().length}")
 
   /*findFloat().foreach(println)
 
