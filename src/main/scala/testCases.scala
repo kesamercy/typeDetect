@@ -9,7 +9,7 @@ class testCases {
 
   var time = "the time is 21:00 and  18:30 should 14:00 leave at 22:39"
 
-  var booly = "this is true"
+  var booly = "this is true he is false true"
 
   var floaty = " 0.4 0.5 0.9 0.5 0.66 0.77 0.55"
 

@@ -5,9 +5,6 @@ import scala.util.matching.Regex.MatchIterator
 
 object dataTypeDetect {
 
-  //declare variables
-
-
 
   //create object for testCases class
   val ts = new testCases( )
@@ -32,7 +29,6 @@ object dataTypeDetect {
 
 
   }
-
 
 
   // detect date
@@ -72,15 +68,6 @@ object dataTypeDetect {
 
 
    }
-
-  /*def countInt ( ): Int = {
-
-    var count = 0;
-
-    count = findInt().foreach(count);
-
-    return count
-  }*/
 
 
 def main(args: Array[String]): Unit = {
