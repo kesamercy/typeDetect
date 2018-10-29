@@ -7,10 +7,10 @@ class testCases {
 
   var date = "today is 4/1/2001 and tomorrow will be 10/12/2018 and next year will be 5/2/2019"
 
-  var time = "the time is 21:00 and i should leave at 22:39"
+  var time = "the time is 21:00 and  18:30 should 14:00 leave at 22:39"
 
   var booly = "this is true"
 
-  var floaty = " 0.4 0.5 0.9"
+  var floaty = " 0.4 0.5 0.9 0.5 0.66 0.77 0.55"
 
 }

@@ -66,7 +66,7 @@ object dataTypeDetect {
      val time = "the time is 21:00 and i should leave at 22:39"
 
      val timePattern: Regex = "\\b([0-1][0-9]|[2][0-3]):([0-5][0-9])\\b".r
-     val match5 = timePattern.findAllIn(time)
+     val match5 = timePattern.findAllIn(ts.time)
 
      return match5
 
@@ -85,20 +85,18 @@ object dataTypeDetect {
 
 def main(args: Array[String]): Unit = {
 
-
-//  println(ts.prompt)
-
+  //print the number of integers found in the string
   println(s"${findInt().length}")
 
-  /*findFloat().foreach(println)
+  //print the number of floats found
+  println(s"${findFloat().length}")
 
-  findDate().foreach(println)
+  println(s"${findDate().length}")
 
-  findBool().foreach(println)
+  println(s"${findBool().length}")
 
-  findTime().foreach(println)
+  println(s"${findTime().length}")
 
-*/
 
 }
 
