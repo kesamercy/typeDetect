@@ -1,0 +1,16 @@
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:21:42: not found: value address[0m
+[0m[[0m[31merror[0m] [0m[0m    val match1 = numberPattern.findAllIn(address)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:31:41: not found: value floaty[0m
+[0m[[0m[31merror[0m] [0m[0m    val match2 = floatPattern.findAllIn(floaty)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:44:40: not found: value date[0m
+[0m[[0m[31merror[0m] [0m[0m    val match3 = datePattern.findAllIn(date)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:57:40: not found: value booly[0m
+[0m[[0m[31merror[0m] [0m[0m    val match4 = boolPattern.findAllIn(booly)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:82:11: not found: value prompt[0m
+[0m[[0m[31merror[0m] [0m[0m  println(prompt)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
