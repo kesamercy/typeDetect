@@ -52,6 +52,8 @@ def main(args: Array[String]): Unit = {
 *
 * 4. display the output in the seq list format for the data types
 *
+* 5. debug the regex for date or change it to a diff regex. look at phone for easier one
+*
 *
 *
 * */
