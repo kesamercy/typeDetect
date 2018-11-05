@@ -1,1 +1,1 @@
-scalac -classpath /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes -bootclasspath /Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/testCases.scala /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala
+scalac -classpath /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes -bootclasspath /Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala

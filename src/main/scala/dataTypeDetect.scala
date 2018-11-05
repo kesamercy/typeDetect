@@ -13,7 +13,7 @@ object dataTypeDetect {
 
   var numIntegers= findType("[0-9]".r, ts.address)
   var numfloat = findType("[+-]?([0-9]*[.])?[0-9]+".r, ts.floaty)
-  var numDates = findType("(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\\d\\d".r, ts.address)
+  var numDates = findType("""(0[1-9]|1[012])[- \/.](0[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d""".r, ts.date)
   var numBoolean = findType("([Vv]+(erdade(iro)?)?|[Ff]+(als[eo])?|[Tt]+(rue)?|0|[\\+\\-]?1)".r, ts.booly)
   var numTimeStamps = findType("\\b([0-1][0-9]|[2][0-3]):([0-5][0-9])\\b".r, ts.time)
 
@@ -28,17 +28,7 @@ object dataTypeDetect {
 
 def main(args: Array[String]): Unit = {
 
-//  //print the number of integers found in the string
-//  println(s"${findInt().length}")
-//
-//  //print the number of floats found
-//  println(s"${findFloat().length}")
-//
-//  println(s"${findDate().length}")
-//
-//  println(s"${findBool().length}")
-//
-//  println(s"${findTime().length}")
+// print the results
 
   println("this is the number of integers in the string " + numIntegers);
   println("this is the number of float numbers " + numfloat);
