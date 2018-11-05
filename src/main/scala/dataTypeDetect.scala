@@ -39,10 +39,6 @@ def main(args: Array[String]): Unit = {
 
 }
 
-  //check phone for image of how to implement map
-
-  //next step is to re-organize the methods so that they aren't repetitive.
-
 
 }
 
