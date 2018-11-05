@@ -66,13 +66,13 @@
         <counts>
           <entry key="Scala Console" value="27" />
           <entry key="sbtShell" value="5" />
-          <entry key="scala" value="4877" />
+          <entry key="scala" value="5330" />
           <entry key="stringDetect" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Scala" value="5006" />
+          <entry key="Scala" value="5459" />
           <entry key="sbtShell" value="5" />
         </counts>
       </usages-collector>
@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/dataTypeDetect.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+            <state relative-caret-position="760">
+              <caret line="54" column="88" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
               <folding>
                 <element signature="e#1#33#0" expanded="true" />
               </folding>
@@ -199,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541440814545" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541446309200" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -345,10 +345,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1155" y="32" width="1268" height="1337" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49585798" visible="true" weight="0.23327896" />
-      <window_info id="Structure" order="1" sideWeight="0.504142" side_tool="true" visible="true" weight="0.23327896" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4958184" visible="true" weight="0.23327896" />
+      <window_info id="Structure" order="1" sideWeight="0.5041816" side_tool="true" visible="true" weight="0.23327896" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -357,14 +356,14 @@
       <window_info id="Learn" order="7" weight="0.3298969" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32128513" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32128513" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39977974" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32919708" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.3270073" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32610443" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.32771084" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -445,8 +444,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/dataTypeDetect.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="56" selection-start-line="15" selection-start-column="56" selection-end-line="15" selection-end-column="56" />
+        <state relative-caret-position="760">
+          <caret line="54" column="88" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
           <folding>
             <element signature="e#1#33#0" expanded="true" />
           </folding>
