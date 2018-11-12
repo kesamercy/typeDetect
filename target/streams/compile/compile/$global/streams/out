@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 [0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:21:42: not found: value address[0m
 [0m[[0m[31merror[0m] [0m[0m    val match1 = numberPattern.findAllIn(address)[0m
 [0m[[0m[31merror[0m] [0m[0m                                         ^[0m
@@ -22,3 +23,20 @@
 [0m[[0m[31merror[0m] [0m[0m                   ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
 >>>>>>> 10022312d52277a063dac444db5f5124c7fceb89
+=======
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:16:32: not found: type regularXp[0m
+[0m[[0m[31merror[0m] [0m[0m  def findType (matchIterator: regularXp, String: fileName): Int = {[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:16:51: not found: type fileName[0m
+[0m[[0m[31merror[0m] [0m[0m  def findType (matchIterator: regularXp, String: fileName): Int = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:18:26: not found: value regularXp[0m
+[0m[[0m[31merror[0m] [0m[0m    var pattern: Regex = regularXp[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:21:12: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : scala.util.matching.Regex.MatchIterator[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    return numInt[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+>>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc

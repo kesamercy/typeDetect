@@ -6,104 +6,53 @@ import scala.util.matching.Regex.MatchIterator
 object dataTypeDetect {
   //create object for testCases class
   val ts = new testCases( )
+  
 
-  //declare variables
-  var regularXp : Regex = "[0-9]".r;
-  var fileName = ts.address;
+  var numIntegers= findType("[0-9]".r, ts.address)
+  var numfloat = findType("[+-]?([0-9]*[.])?[0-9]+".r, ts.floaty)
+  var numDates = findType("""(0?[1-9]|1[012])[- \/.](0?[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d""".r, ts.date)
+  var numBoolean = findType("([Vv]+(erdade(iro)?)?|[Ff]+(als[eo])?|[Tt]+(rue)?|0|[\\+\\-]?1)".r, ts.booly)
+  var numTimeStamps = findType("\\b([0-1][0-9]|[2][0-3]):([0-5][0-9])\\b".r, ts.time)
 
-  def findType (matchIterator: regularXp, String: fileName): Int = {
+  //method to determine the dataTypes
+  def findType (regularXp: Regex , fileName: String): Int = {
 
-    var pattern: Regex = regularXp
-    var numInt = pattern.findAllIn(fileName)
+    var numInt: MatchIterator = regularXp.findAllIn(fileName)
 
-    return numInt
+    return numInt.size
   }
-
-  //how do i get it to return
-
-
-  //detect int
-  def findInt ( ): MatchIterator = {
-
-    val numberPattern: Regex = "[0-9]".r
-    val match1 = numberPattern.findAllIn(ts.address)
-
-    return match1
-  }
-
-  //detect float
-
-  def findFloat ( ): MatchIterator = {
-
-    val floatPattern: Regex = "[+-]?([0-9]*[.])?[0-9]+".r
-    val match2 = floatPattern.findAllIn(ts.floaty)
-
-    return match2
-
-  }
-
-  // detect date
-  def findDate ( ): MatchIterator ={
-
-    val datePattern: Regex = "(0[1-9]|1[012])[- /.](0[1-9]|[12][0-9]|3[01])[- /.](19|20)\\d\\d".r
-    val match3 = datePattern.findAllIn(ts.date)
-
-    return match3
-
-
-  }
-
-
- //detect boolean
-
-  def findBool ( ): MatchIterator ={
-
-    val boolPattern: Regex = "([Vv]+(erdade(iro)?)?|[Ff]+(als[eo])?|[Tt]+(rue)?|0|[\\+\\-]?1)".r
-    val match4 = boolPattern.findAllIn(ts.booly)
-
-    return match4
-
-  }
-
-
-  //detect time stamp
-
-   def findTime ( ): MatchIterator = {
-
-     val time = "the time is 21:00 and i should leave at 22:39"
-
-     val timePattern: Regex = "\\b([0-1][0-9]|[2][0-3]):([0-5][0-9])\\b".r
-     val match5 = timePattern.findAllIn(ts.time)
-
-     return match5
-
-
-   }
 
 
 def main(args: Array[String]): Unit = {
 
-  //print the number of integers found in the string
-  println(s"${findInt().length}")
+// print the results
 
-  //print the number of floats found
-  println(s"${findFloat().length}")
-
-  println(s"${findDate().length}")
-
-  println(s"${findBool().length}")
-
-  println(s"${findTime().length}")
+  println("this is the number of integers in the string " + numIntegers);
+  println("this is the number of float numbers " + numfloat);
+  println("this is the number of dates in the string " + numDates);
+  println( "this is the number of boolean in the string " + numBoolean);
+  println( "this is the number of time stamps in the string " + numTimeStamps);
 
 
 }
 
-  //check phone for image of how to implement map
-
-  //next step is to re-organize the methods so that they aren't repetitive.
-
 
 }
-
+/*
+* look at the phone pictures for how to do new implementation
+*
+* 1. get the input to read from a seq. the data is in list form
+*
+* 2. put the regex in a seq list form
+*
+* 3. use a for loop method to run the regex to find the data type
+*
+* 4. display the output in the seq list format for the data types
+*
+* 5. debug the regex for date or change it to a diff regex. look at phone for easier one
+*
+*
+*
+* */
 
 
