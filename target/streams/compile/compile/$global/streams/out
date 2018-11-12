@@ -1,3 +1,29 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:21:42: not found: value address[0m
+[0m[[0m[31merror[0m] [0m[0m    val match1 = numberPattern.findAllIn(address)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:31:41: not found: value floaty[0m
+[0m[[0m[31merror[0m] [0m[0m    val match2 = floatPattern.findAllIn(floaty)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:44:40: not found: value date[0m
+[0m[[0m[31merror[0m] [0m[0m    val match3 = datePattern.findAllIn(date)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:57:40: not found: value booly[0m
+[0m[[0m[31merror[0m] [0m[0m    val match4 = boolPattern.findAllIn(booly)[0m
+[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
+[0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:82:11: not found: value prompt[0m
+[0m[[0m[31merror[0m] [0m[0m  println(prompt)[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+=======
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:91:20: not enough arguments for method foreach: (f: String => U)Unit.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter f.[0m
+[0m[[0m[31merror[0m] [0m[0m  findInt().foreach().length[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+>>>>>>> 10022312d52277a063dac444db5f5124c7fceb89
+=======
 [0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:16:32: not found: type regularXp[0m
 [0m[[0m[31merror[0m] [0m[0m  def findType (matchIterator: regularXp, String: fileName): Int = {[0m
 [0m[[0m[31merror[0m] [0m[0m                               ^[0m
@@ -13,3 +39,4 @@
 [0m[[0m[31merror[0m] [0m[0m    return numInt[0m
 [0m[[0m[31merror[0m] [0m[0m           ^[0m
 [0m[[0m[31merror[0m] [0m[0mfour errors found[0m
+>>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc

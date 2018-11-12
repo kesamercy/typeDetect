@@ -4,10 +4,9 @@ import scala.util.matching.Regex.MatchIterator
 
 
 object dataTypeDetect {
-
-
   //create object for testCases class
   val ts = new testCases( )
+
 
   //regex to check data types
 
