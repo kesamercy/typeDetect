@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[31merror[0m] [0m[0mD:\typeDetect\src\main\scala\dataTypeDetect.scala:21:42: not found: value address[0m
 [0m[[0m[31merror[0m] [0m[0m    val match1 = numberPattern.findAllIn(address)[0m
 [0m[[0m[31merror[0m] [0m[0m                                         ^[0m
@@ -14,3 +15,10 @@
 [0m[[0m[31merror[0m] [0m[0m  println(prompt)[0m
 [0m[[0m[31merror[0m] [0m[0m          ^[0m
 [0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+=======
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:91:20: not enough arguments for method foreach: (f: String => U)Unit.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter f.[0m
+[0m[[0m[31merror[0m] [0m[0m  findInt().foreach().length[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+>>>>>>> 10022312d52277a063dac444db5f5124c7fceb89

@@ -1,2 +1,5 @@
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Nekesa/AppData/Local/Temp/sbt-structure.xml; session clear-all
 all {file:/D:/typeDetect/}typedetect/products {file:/D:/typeDetect/}typedetect/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/5p/rccp4pr96cb52x0ybn1yd9cw0000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/nekesamercy/IdeaProjects/typeDetect/}typedetect/products {file:/Users/nekesamercy/IdeaProjects/typeDetect/}typedetect/test:products
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Nekesa/AppData/Local/Temp/sbt-structure.xml; session clear-all
