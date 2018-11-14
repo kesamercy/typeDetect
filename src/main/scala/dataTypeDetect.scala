@@ -6,7 +6,7 @@ import scala.util.matching.Regex.MatchIterator
 object dataTypeDetect {
   //create object for testCases class
   val ts = new testCases( )
-  
+
 
   var numIntegers= findType("[0-9]".r, ts.address)
   var numfloat = findType("[+-]?([0-9]*[.])?[0-9]+".r, ts.floaty)
