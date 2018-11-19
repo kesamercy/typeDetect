@@ -42,11 +42,7 @@ object dataTypeDetect {
 
     // print the results
     findAllTypes(ts.dataSeq)
-    // println("this is the number of integers in the string " + numIntegers);
-    // println("this is the number of float numbers " + numfloat);
-    // println("this is the number of dates in the string " + numDates);
-    // println( "this is the number of boolean in the string " + numBoolean);
-    // println( "this is the number of time stamps in the string " + numTimeStamps);
+
 
 
   }
@@ -56,14 +52,8 @@ object dataTypeDetect {
 /*
 * look at the phone pictures for how to do new implementation
 *
-* 2. put the regex in a seq list form
-*
-* 3. use a for loop method to run the regex to find the data type
-*
-* 4. display the output in the seq list format for the data types
 *
 * 5. debug the regex for date or change it to a diff regex. look at phone for easier one
-*
 *
 *
 * */

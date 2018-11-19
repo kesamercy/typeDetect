@@ -18,3 +18,4 @@ all {file:/Users/nekesamercy/IdeaProjects/typeDetect/}typedetect/products {file:
 >>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
 >>>>>>> 47d7cd4e8d930090153f3d0ec893efeb0394b7e9
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo /private/var/folders/5p/rccp4pr96cb52x0ybn1yd9cw0000gn/T/sbt-structure.xml; session clear-all
+all {file:/Users/nekesamercy/IdeaProjects/typeDetect/}typedetect/products {file:/Users/nekesamercy/IdeaProjects/typeDetect/}typedetect/test:products
