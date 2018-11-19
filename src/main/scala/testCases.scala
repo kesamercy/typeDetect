@@ -1,17 +1,31 @@
-
 class testCases {
 
-  // declare  variables - put these test cases into test case file
-  var prompt = "Please enter  4/1/2001 the string  0.5 0.6 0.9 to which you 555 296574598 would like to find the data type trial"
+  // declare  variables
 
-  val address = "123 Main Street Suite 101"
+  var dataSeq:Seq[String] = Seq(
 
-  val date = "today is 4/1/2001 and tomorrow will be 10/12/2018 and next year will be 5/2/2019"
+    "Main 66  4/1/2001  Street 10/12/2018 88 Suite 101",
 
-  val time = "the time is 21:00 and i should leave at 22:39"
+    "today is 4/1/2001 and tomorrow will be 10/12/2018 and next year will be 5/2/2019",
 
-  val booly = "this is true"
+    "the time is  18:30 should 14:00 leave at 22:39",
 
-  val floaty = " 0.4 0.5 0.9"
+    "this is true he is false true",
+
+    " 0.4 0.9 0.5 0.66 0.77 0.55"
+
+
+
+  )
+
+  /*var address = " Main 66  4/1/2001  Street 10/12/2018 88 Suite 101"
+
+  var date = "today is 4/1/2001 and tomorrow will be 10/12/2018 and next year will be 5/2/2019"
+
+  var time = "the time is  18:30 should 14:00 leave at 22:39"
+
+  var booly = "this is true he is false true"
+
+  var floaty = " 0.4 0.9 0.5 0.66 0.77 0.55"*/
 
 }
