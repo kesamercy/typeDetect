@@ -2,9 +2,11 @@
 import scala.util.matching.Regex
 import scala.util.matching.Regex.MatchIterator
 
-object newClass {
+object detectDataType {
 
-  // declare  variables
+  testCases tc = new testCases()
+
+  // declare  variables - put these test cases into test case file
   var prompt = "Please enter  4/1/2001 the string  0.5 0.6 0.9 to which you 555 296574598 would like to find the data type trial"
 
   val address = "123 Main Street Suite 101"
@@ -18,6 +20,10 @@ object newClass {
   val floaty = " 0.4 0.5 0.9"
 
   //detect int
+
+  //create a class for all. then pass a value
+
+
   def findInt ( ): MatchIterator = {
 
     val numberPattern: Regex = "[0-9]".r
