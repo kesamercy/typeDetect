@@ -17,26 +17,10 @@
 [0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 40cccd0a for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 63485c28 for Scala compiler version 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 4.189203779 s[0m
-[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from dataTypeDetect...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(dataTypeDetect)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(dataTypeDetect)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(dataTypeDetect,ModifiedNames(changes = UsedName(numTimeStamps,[Default]), UsedName(numBoolean,[Default]), UsedName(numfloat,[Default]), UsedName(numDates,[Default]), UsedName(findType,[Default]), UsedName(chekXpression,[Default]), UsedName(numIntegers,[Default]), UsedName(findAllTypes,[Default]))) invalidates 1 classes due to The dataTypeDetect has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(numTimeStamps,[Default]), UsedName(numBoolean,[Default]), UsedName(numfloat,[Default]), UsedName(numDates,[Default]), UsedName(findType,[Default]), UsedName(chekXpression,[Default]), UsedName(numIntegers,[Default]), UsedName(findAllTypes,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(dataTypeDetect)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
