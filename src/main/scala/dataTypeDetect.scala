@@ -9,7 +9,6 @@ object dataTypeDetect {
 
   val data = fromFile("zs.csv").getLines
 
-
   //val data = Seq("A,B,C","1,3,4","2,,","1,2,6","1,4,6","2,2,6",",2,6") //fromFile("zs.csv").getLines
 
   val rowData = data.map(row => {
@@ -71,7 +70,7 @@ object dataTypeDetect {
   def main(args: Array[String]): Unit = {
 
     // print the results
-    findAllTypes(data)
+    columnarData.tail.map(col => findAllTypes(col))
 
 
 
