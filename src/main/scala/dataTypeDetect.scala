@@ -5,9 +5,9 @@ import scala.io.Source._
 
 object dataTypeDetect {
   //create object for testCases class
-  val ts = new testCases( )
+  //val ts = new testCases( )
 
-  val data = fromFile("zs.csv").getLines
+  val data = fromFile("/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/zs.csv").getLines
 
   //val data = Seq("A,B,C","1,3,4","2,,","1,2,6","1,4,6","2,2,6",",2,6") //fromFile("zs.csv").getLines
 
