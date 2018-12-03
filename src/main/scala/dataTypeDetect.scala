@@ -10,8 +10,30 @@ object dataTypeDetect {
   val data = fromFile("zs.csv").getLines
 
 
-  //regex to check data types
+  //val data = Seq("A,B,C","1,3,4","2,,","1,2,6","1,4,6","2,2,6",",2,6") //fromFile("zs.csv").getLines
 
+  val rowData = data.map(row => {
+    (if(row.trim.startsWith(","))
+      s"***${row}"
+    else if(row.endsWith(","))
+      s"${row}***"
+    else
+      row).split(",").toSeq.map(el => if(el.equals("***")) "" else el)
+  })
+
+  val columnarData = rowData.foldLeft(Seq[Seq[String]]())((init, cur) => {
+    init match {
+      case Seq() => cur.map(cell => Seq(cell))
+      case nonEmptySeq => cur.zipWithIndex.map(cellidx => nonEmptySeq(cellidx._2) :+ s"${cellidx._1}")
+      case _ => init
+    }
+  })
+
+
+  columnarData.mkString("<br>")
+
+
+  //regex to check data types
   var chekXpression: Map[String,Regex] = Map(
 
     "Integer"    -> "[0-9]".r,
@@ -19,12 +41,7 @@ object dataTypeDetect {
     "Date"       -> """(0?[1-9]|1[012])[- \/.](0?[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d""".r,
     "Boolean"    -> "([Vv]+(erdade(iro)?)?|[Ff]+(als[eo])?|[Tt]+(rue)?|0|[\\+\\-]?1)".r,
     "TimeStamp"  -> "\\b([0-1][0-9]|[2][0-3]):([0-5][0-9])\\b".r,
-/*
-    "Integer"    -> "^[0-9]+$".r,
-    "Float"      -> "^[+-]?([0-9]*[.])?[0-9]+$".r,
-    "Date"       -> """^(0?[1-9]|1[012])[- \/.](0?[1-9]|[12][0-9]|3[01])[- \/.](19|20)\d\d$""".r,
-    "Boolean"    -> "^([Vv]+(erdade(iro)?)?|[Ff]+(als[eo])?|[Tt]+(rue)?|0|[\\+\\-]?1)$".r,
-    "TimeStamp"  -> "^\\b([0-1][0-9]|[2][0-3]):([0-5][0-9])\\b$".r,*/
+
   )
 
   def guessType(data:Seq[String]): String = {
@@ -62,13 +79,5 @@ object dataTypeDetect {
 
 
 }
-/*
-* look at the phone pictures for how to do new implementation
-*
-*
-* 5. debug the regex for date or change it to a diff regex. look at phone for easier one
-*
-*
-* */
 
 

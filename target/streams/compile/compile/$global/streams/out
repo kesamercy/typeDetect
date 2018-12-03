@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:57:18: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:75:18: type mismatch;[0m
 [0m[[0m[31merror[0m] [0m[0m found   : Iterator[String][0m
 [0m[[0m[31merror[0m] [0m[0m required: Seq[String][0m
 [0m[[0m[31merror[0m] [0m[0m    findAllTypes(data)[0m
