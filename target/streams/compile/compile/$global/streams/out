@@ -1,7 +1,6 @@
-[0m[[0m[33mwarn[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:26:12: patterns after a variable pattern cannot match (SLS 8.1.1)[0m
-[0m[[0m[33mwarn[0m] [0m[0m      case nonEmptySeq => cur.zipWithIndex.map(cellidx => nonEmptySeq(cellidx._2) :+ s"${cellidx._1}")[0m
-[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
-[0m[[0m[33mwarn[0m] [0m[0m/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala:27:17: unreachable code due to variable pattern 'nonEmptySeq' on line 26[0m
-[0m[[0m[33mwarn[0m] [0m[0m      case _ => init[0m
-[0m[[0m[33mwarn[0m] [0m[0m                ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/okennedy/Documents/TypeDetect/src/main/scala/dataTypeDetect.scala:25:41: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: Map[String,Int][0m
+[0m[[0m[31merror[0m] [0m[0m    for( (typeName:String, regex:Regex) <- chekXpression ) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
