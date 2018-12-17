@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
@@ -11,3 +12,18 @@
 	<dependencies>
 	</dependencies>
 </ivy-report>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-module-98ec89c315ed408f615fff2c4774286d17323b01"
+		revision="1.2.1"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional"
+		date="20181019101547"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c

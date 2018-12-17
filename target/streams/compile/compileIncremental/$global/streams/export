@@ -1,1 +1,17 @@
+<<<<<<< HEAD
 scalac -classpath C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\classes -bootclasspath C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes;C:\Users\mercy\.sbt\boot\scala-2.12.6\lib\scala-library.jar C:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\example\Main.scala C:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\Main.scala C:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\newClass.scala
+=======
+<<<<<<< HEAD
+scalac -classpath /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes -bootclasspath /Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/testCases.scala /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+scalac -classpath D:\typeDetect\target\scala-2.12\classes -bootclasspath C:\Users\Nekesa\.sbt\boot\scala-2.12.6\lib\scala-library.jar D:\typeDetect\src\main\scala\dataTypeDetect.scala D:\typeDetect\src\main\scala\example\Main.scala D:\typeDetect\src\main\scala\Main.scala D:\typeDetect\src\main\scala\testCases.scala
+=======
+scalac -classpath /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes -bootclasspath /Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/testCases.scala
+>>>>>>> 10022312d52277a063dac444db5f5124c7fceb89
+=======
+scalac -classpath /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes -bootclasspath /Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala
+>>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
+>>>>>>> 47d7cd4e8d930090153f3d0ec893efeb0394b7e9
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
