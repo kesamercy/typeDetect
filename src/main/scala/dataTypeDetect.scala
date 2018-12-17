@@ -4,7 +4,6 @@ import scala.util.matching.Regex.MatchIterator
 
 object dataTypeDetect {
 
-
   //regex to check data types
   var chekXpression: Map[String,Regex] = Map(
 
@@ -24,13 +23,18 @@ object dataTypeDetect {
 
     for( (typeName:String, regex:Regex) <- chekXpression ) {
       println(typeName)
+
+      //instead of print, return the values
       val count = findType(regex, data)
-      println("Found "+count+" "+typeName+"(s)")
+      //assigned the return values to variable names
+      var dataType = typeName;
+      var numType = count;
+
+      println("Found this "+numType+" "+dataType+"(s)")
     }
 
     ???
   }
-
   //method to determine the dataTypes
   def findType (regularXp: Regex , data: Seq[String]): Int = {
 
@@ -39,6 +43,12 @@ object dataTypeDetect {
     return numInt.size
   }
 
-}
+//  def main(args: Array[String]): Unit = {
+//
+//    val td = new TypeDetectTest( )
+//
+//  }// end main
+
+}// end dataTypeDetect
 
 
