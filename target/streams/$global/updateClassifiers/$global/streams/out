@@ -526,61 +526,39 @@
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#typedetect$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master][0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.3.4!specs2-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-common_2.12;4.3.4!specs2-common_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.3.4!specs2-matcher_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.3.4!specs2-core_2.12.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-fp_2.12;4.3.4!specs2-fp_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src)[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.specs2#specs2-common_2.12;4.3.4!specs2-common_2.12.jar(src)[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to C:\Users\mercy\.ivy2[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (250ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (172ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -589,12 +567,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (312ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (269ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -603,114 +585,61 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (378ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (437ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (453ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (358ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (328ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (437ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (390ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (374ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (421ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (406ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2133ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -720,8 +649,16 @@
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (453ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2149ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2133ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
@@ -730,7 +667,70 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
 [0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 2945ms :: artifacts dl 726ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2133ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2118ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2149ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/C:/Users/mercy/.sbt/boot/scala-2.12.4/org.scala-sbt/sbt/1.1.2/ivy-2.3.0-sbt-b18f59ea3bc914a297bb6f1a4f7fb0ace399e310.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2149ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2133ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (2164ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: C:\Users\mercy\.ivy2\cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
+[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
+[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
+[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 2226ms :: artifacts dl 2274ms[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#typedetect$sources;0.1 compile produced in C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-compile.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#typedetect$sources;0.1 runtime produced in C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-runtime.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#typedetect$sources;0.1 test produced in C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-test.xml[0m
@@ -742,4 +742,4 @@
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#typedetect$sources;0.1 plugin produced in C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-plugin.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#typedetect$sources;0.1 pom produced in C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-pom.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	report for default#typedetect$sources;0.1 scala-tool produced in C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (2945ms resolve - 726ms download)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (2226ms resolve - 2274ms download)[0m

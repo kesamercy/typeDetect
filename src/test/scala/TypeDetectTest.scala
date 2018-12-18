@@ -1,6 +1,6 @@
 import org.specs2.mutable._
 
-class TypeDetectTest extends Specification { 
+class TypeDetectTest extends Specification {
 
   "The Type Detector" should {
 
