@@ -16,15 +16,27 @@ class TypeDetectTest extends Specification {
       ) must be equalTo("Integer")
     }
     "Recognize Floats" >> {
-      dataTypeDetect.guessType(Seq("1.0", "2.0", "3.2", "500.1", "29.9", "50.0000")) must be equalTo("Float")
-      dataTypeDetect.guessType(Seq("1", "2", "3", "500", "29", "50.0000")) must be equalTo("Float")
+      dataTypeDetect.guessType(
+        Seq("1.0", "2.0", "3.2", "500.1", "29.9", "50.0000")
+      ) must be equalTo("Float")
+
+      dataTypeDetect.guessType(
+        Seq("1", "2", "3", "500", "29", "50.0000")
+      ) must be equalTo("Float")
     }
+
     "Recognize Dates" >> {
-      dataTypeDetect.guessType(Seq("1984-11-05", "1951-03-23", "1815-12-10")) must be equalTo("Date")
+      dataTypeDetect.guessType(
+        Seq("1984-11-05", "1951-03-23", "1815-12-10")
+      ) must be equalTo("Date")
     }
     "Recognize Strings" >> {
-      dataTypeDetect.guessType(Seq("Alice", "Bob", "Carol", "Dave")) must be equalTo("String")
-      dataTypeDetect.guessType(Seq("Alice", "Bob", "Carol", "1", "2.0")) must be equalTo("String")
+      dataTypeDetect.guessType(
+        Seq("Alice", "Bob", "Carol", "Dave")
+      ) must be equalTo("String")
+      dataTypeDetect.guessType(
+        Seq("Alice", "Bob", "Carol", "1", "2.0")
+      ) must be equalTo("String")
     }
 
   }

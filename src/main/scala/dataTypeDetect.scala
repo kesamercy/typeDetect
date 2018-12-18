@@ -15,13 +15,22 @@ object dataTypeDetect {
 
   )
 
-  def guessType(data:Seq[String]): String = {
-    ???
-  }
+  //method to determine / guess the dataType of a string
+  def guessType(data:Seq[String]): String =  {
+
+    //check dataType with regex expressions
+    for ((typeName :String, regex:Regex) <- chekXpression) {
+
+        var foundType =  typeName;
+
+        println("Data type is " + foundType)
+
+    }// end for
+  }// end guess
 
   def findAllTypes(data: Seq[String]): Map[String, Int] = {
 
-    for( (typeName:String, regex:Regex) <- chekXpression ) {
+    (for( (typeName:String, regex:Regex) <- chekXpression ) yield{
       println(typeName)
 
       //instead of print, return the values
@@ -31,10 +40,11 @@ object dataTypeDetect {
       var numType = count;
 
       println("Found this "+numType+" "+dataType+"(s)")
-    }
-
-    ???
+      (dataType,numType)
+    }).toMap
   }
+
+
   //method to determine the dataTypes
   def findType (regularXp: Regex , data: Seq[String]): Int = {
 
