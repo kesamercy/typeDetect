@@ -16,16 +16,26 @@ object dataTypeDetect {
   )
 
   //method to determine / guess the dataType of a string
-  def guessType(data:Seq[String]): String =  {
+  def guessType(data:Seq[String]): String = data  match{
 
     //check dataType with regex expressions
     for ((typeName :String, regex:Regex) <- chekXpression) {
 
-        var foundType =  typeName;
-
-        println("Data type is " + foundType)
+      var foundType =  typeName;
 
     }// end for
+
+    def findType(foundType:String): match {
+
+      //match expression
+      case "integer" => println("Found an integer")
+      case "Float" => println("Found a float")
+      case "Date" => println("Found a date")
+      case "Boolean" => println("Found a Boolean")
+      case "TimeStamp" => println("Found a time stamp")
+
+  }// end match
+
   }// end guess
 
   def findAllTypes(data: Seq[String]): Map[String, Int] = {

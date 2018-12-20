@@ -1,4 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:19:50: Unit.type does not take parameters[0m
-[0m[[0m[31merror[0m] [0m[0m  def guessType(data:Seq[String]): String = Unit {[0m
-[0m[[0m[31merror[0m] [0m[0m                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:22:42: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m    for ((typeName :String, regex:Regex) <- chekXpression) {[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
