@@ -33,3 +33,5 @@ testOnly TypeDetectTest
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/mercy/AppData/Local/Temp/sbt-structure.xml; session clear-all
 testOnly TypeDetect
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/mercy/AppData/Local/Temp/sbt-structure.xml; session clear-all
+testOnly TypeDetectTest
+;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/mercy/AppData/Local/Temp/sbt-structure.xml; session clear-all
