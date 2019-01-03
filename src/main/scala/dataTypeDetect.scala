@@ -26,7 +26,6 @@ object dataTypeDetect {
     // comapare the numbers for the data types returned - using brute force method first then modify later
 
     // method to check if int is greater than all the other types
-
     if (int > float){
 
       def checkInt(dataType: Int): String = data {
@@ -66,23 +65,23 @@ object dataTypeDetect {
 
           else if (date > boolean ) {
             //call method for check date
+            checkDate();
 
           }// end else if date & boolean
 
           else if (boolean > timestamp){
 
             //call method for check boolean
+            checkBoolean();
           }
 
           else {
-            //call method for timestamp
             println("the datatype is a time stamp")
           }
 
       }// end def checkInt
 
     }// end if int & float
-
 
     //check if float is greater than all the other types
 
@@ -121,7 +120,7 @@ object dataTypeDetect {
 
           } // end else for timestamp
 
-        }// end if date & int
+        }// end if date & date
 
         else if (date > boolean ) {
           //call method for check date
@@ -143,48 +142,71 @@ object dataTypeDetect {
     }// end if float & int
 
     //check if date is greater than all the other types
+
+
     if(date > int){
 
-      if(date > float) {
+      def checkDate(data: Int) String = data {
 
-        if(date > boolean){
+        if (date > float) {
 
-          if(date > timestamp){
+          if (date > boolean) {
 
-          }// end if date & timestamp
+            if (date > timestamp) {
 
-
-        }// end if date & boolean
-
-      } // end if date & float
+            } // end if date & timestamp
 
 
+          } // end if date & boolean
 
-    }
+        } // end if date & float
 
+        else if (float > date) {
 
-    //check if boolean is greater than all the other types
+          if (float > boolean) {
 
-    //check if timestamp is greater than all the other types
+          } // end if
+
+          else if (boolean > float) {
+
+            if (boolean > timestamp) {
+
+              println("the data type is a boolean")
+
+            } // end if
+            else {
+              println("the datatype is a timestamp")
+            }
+
+          } // end else if
+
+        } // end else if
+
+      }// end def check date
+
+    }// end if date & int
+
+    //check boolean
+
+    if(boolean > int) {
+
+      def checkBoolean(data: Int) String = data {
+
+        if (boolean > float) {
+          if (boolean > date) {
+            if (boolean > timestamp) {
+
+              println("the data type is a boolean")
+
+            } // end bool & timestamp
+
+          } // end if bool & date
+        } // end if bool & float
+      }// end def
+    }// end if bool & date
 
 
     // return the number with the highest count for the data types
-
-
-
-
-
-    // return one type of data for the most frequent data set
-
-
-    // try this on a much larger data set  - new file that runs the new test case with the larger data
-
-    // new class for the larger tests of data set. instead of writing the data, have a file that reads the data for testing
-
-    // create a new class that uses my code
-
-    //long term challenge - goal is to make it faster, the code should run faster for the data sets given.
-
 
     //check dataType with regex expressions
     for ((typeName :String, regex:Regex) <- chekXpression) {
@@ -210,9 +232,6 @@ object dataTypeDetect {
       var numType = count;
 
 
-      //add the results to an array
-
-      val dataResults = Array.ofDim[String](dataType, numType)
 
       println("Found this "+numType+" "+dataType+"(s)")
       (dataType,numType)
@@ -240,3 +259,15 @@ object dataTypeDetect {
 }// end dataTypeDetect
 
 
+/*return one type of data for the most frequent data set
+
+
+    try this on a much larger data set  - new file that runs the new test case with the larger data
+
+    new class for the larger tests of data set. instead of writing the data, have a file that reads the data for testing
+
+    create a new class that uses my code
+
+    long term challenge - goal is to make it faster, the code should run faster for the data sets given.
+
+*/
