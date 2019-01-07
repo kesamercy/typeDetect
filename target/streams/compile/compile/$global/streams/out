@@ -1,7 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:28:48: '=' expected but 'match' found.[0m
-[0m[[0m[31merror[0m] [0m[0m    def matchType(foundType:String): foundType match {[0m
-[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:39:3: illegal start of simple expression[0m
-[0m[[0m[31merror[0m] [0m[0m  }// end guess[0m
-[0m[[0m[31merror[0m] [0m[0m  ^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:25:21: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
+[0m[[0m[31merror[0m] [0m[0m required: Int[0m
+[0m[[0m[31merror[0m] [0m[0m    checkTypes.maxBy(numTypes => numTypes )[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

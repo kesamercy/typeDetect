@@ -18,206 +18,13 @@ object dataTypeDetect {
   //method to determine / guess the dataType of a string
   def guessType(data:Seq[String]): String = data {
 
-    // determine the most frequent data type from the set
-
     // use find all to return the values for the data types
     val checkTypes = findAllTypes(data)
 
-    // comapare the numbers for the data types returned - using brute force method first then modify later
-
-    // method to check if int is greater than all the other types
-    if (int > float){
-
-      def checkInt(dataType: Int): String = data {
-
-          //check if int is greater than date
-          if(int > date){
-
-            if (int > boolean){
-
-              if (int > timestamp){
-
-                println("the datatype is an integer")
-
-              }// end if int & timestamp
-
-              else {
-
-                println("the datatype is a timestamp")
-
-              }//end else for int & timestamp
-
-            }// end if int & boolean
-
-            else if (boolean > timestamp) {
-
-              println("the datatype is a boolean")
-
-            } // end else if bool & time
-
-            else {
-
-              println("the datatype is a timestamp")
-
-            } // end else for timestamp
-
-          }// end if date & int
-
-          else if (date > boolean ) {
-            //call method for check date
-            checkDate();
-
-          }// end else if date & boolean
-
-          else if (boolean > timestamp){
-
-            //call method for check boolean
-            checkBoolean();
-          }
-
-          else {
-            println("the datatype is a time stamp")
-          }
-
-      }// end def checkInt
-
-    }// end if int & float
-
-    //check if float is greater than all the other types
-
-    if(float > int){
-
-      def checkFloat(dataType: Int): String = data {
-
-        //check if float is greater than date
-        if(float > date){
-
-          if (float > boolean){
-
-            if (float > timestamp){
-
-              println("the datatype is a float")
-
-            }// end if float & timestamp
-
-            else {
-
-              println("the datatype is a timestamp")
-
-            }//end else for int & timestamp
-
-          }// end if float & boolean
-
-          else if (boolean > timestamp) {
-
-            println("the datatype is a boolean")
-
-          } // end else if bool & time
-
-          else {
-
-            println("the datatype is a timestamp")
-
-          } // end else for timestamp
-
-        }// end if date & date
-
-        else if (date > boolean ) {
-          //call method for check date
-
-        }// end else if date & boolean
-
-        else if (boolean > timestamp) {
-
-          //call method for check boolean
-        }
-
-        else {
-          //method for timestamp
-          println("the datatype is a timestamp")
-        }
-
-      }// end def checkInt
-
-    }// end if float & int
-
-    //check if date is greater than all the other types
-
-
-    if(date > int){
-
-      def checkDate(data: Int) String = data {
-
-        if (date > float) {
-
-          if (date > boolean) {
-
-            if (date > timestamp) {
-
-            } // end if date & timestamp
-
-
-          } // end if date & boolean
-
-        } // end if date & float
-
-        else if (float > date) {
-
-          if (float > boolean) {
-
-          } // end if
-
-          else if (boolean > float) {
-
-            if (boolean > timestamp) {
-
-              println("the data type is a boolean")
-
-            } // end if
-            else {
-              println("the datatype is a timestamp")
-            }
-
-          } // end else if
-
-        } // end else if
-
-      }// end def check date
-
-    }// end if date & int
-
-    //check boolean
-
-    if(boolean > int) {
-
-      def checkBoolean(data: Int) String = data {
-
-        if (boolean > float) {
-          if (boolean > date) {
-            if (boolean > timestamp) {
-
-              println("the data type is a boolean")
-
-            } // end bool & timestamp
-
-          } // end if bool & date
-        } // end if bool & float
-      }// end def
-    }// end if bool & date
-
-
-    // return the number with the highest count for the data types
-
-    //check dataType with regex expressions
-    for ((typeName :String, regex:Regex) <- chekXpression) {
-
-      var foundType =  typeName;
-
-    }// end for
+    // determine the max of the dataTypes and return the dataType of the highest probability.
+    checkTypes.maxBy(numTypes => numTypes )
 
   }// end guess
-
-
 
   def findAllTypes(data: Seq[String]): Map[String, Int] = {
 
@@ -231,16 +38,13 @@ object dataTypeDetect {
       var dataType = typeName;
       var numType = count;
 
-
-
       println("Found this "+numType+" "+dataType+"(s)")
       (dataType,numType)
-    }).toMap
+     }).toMap
 
     //save the values in an array
 
   }// end def
-
 
   //method to determine the dataTypes
   def findType (regularXp: Regex , data: Seq[String]): Int = {
@@ -260,7 +64,6 @@ object dataTypeDetect {
 
 
 /*return one type of data for the most frequent data set
-
 
     try this on a much larger data set  - new file that runs the new test case with the larger data
 
