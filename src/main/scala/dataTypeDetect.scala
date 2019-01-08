@@ -16,7 +16,7 @@ object dataTypeDetect {
   )
 
   //method to determine / guess the dataType of a string
-  def guessType(data:Seq[String]): String = data {
+  def guessType(data:Seq[String], numTypes: Int): Int = numTypes {
 
     // use find all to return the values for the data types
     val checkTypes = findAllTypes(data)

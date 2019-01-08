@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:25:21: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    checkTypes.maxBy(numTypes => numTypes )[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:19:66: Int does not take parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def guessType(data:Seq[String], numTypes: Int): Int = numTypes {[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                 ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
