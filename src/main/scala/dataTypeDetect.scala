@@ -22,9 +22,7 @@ object dataTypeDetect {
     // use find all to return the values for the data types
     val checkTypes = findAllTypes(data) //- this should retunr a collection of data sets
 
-    checkTypes.maxBy(numTpes => numTypes)
-
-    // comapare the numbers for the data types returned - using brute force method first then modify later
+    checkTypes.maxBy(numTpes => numTypes._2)
 
     // method to check if int is greater than all the other types
     if (int > float){

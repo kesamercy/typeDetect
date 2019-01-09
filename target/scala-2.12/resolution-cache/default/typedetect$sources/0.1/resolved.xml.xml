@@ -4,7 +4,7 @@
 		module="typedetect$sources"
 		revision="0.1"
 		status="integration"
-		publication="20190109101018"
+		publication="20190109102632"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>
