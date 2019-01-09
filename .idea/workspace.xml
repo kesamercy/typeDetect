@@ -2,6 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
 <<<<<<< HEAD
+    <list default="true" id="a99a1108-6ee8-47b6-bb62-893e14b2eed4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/scala/detectDataType.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/detectDataType.scala" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/project/project/target/" />
+    <ignored path="$PROJECT_DIR$/project/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+=======
+<<<<<<< HEAD
     <list default="true" id="5acf4bd2-7f71-496c-b847-63bb207d83e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 =======
@@ -136,6 +144,7 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/project/project/target/" />
     <ignored path="$PROJECT_DIR$/project/target/" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,6 +156,17 @@
       <ProjectState />
     </projectState>
   </component>
+<<<<<<< HEAD
+  <component name="FUSProjectUsageTrigger">
+    <session id="723639714">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.62" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
+=======
   <component name="ExternalProjectsManager">
     <system id="SBT">
       <state>
@@ -176,18 +196,31 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="10" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
+          <entry key="scala" value="2" />
+=======
           <entry key="properties" value="2" />
           <entry key="sbt" value="2" />
           <entry key="scala" value="4" />
           <entry key="stringDetect" value="1" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
+          <entry key="Scala" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="scala" value="241" />
+=======
           <entry key="Properties" value="2" />
           <entry key="Scala" value="5" />
           <entry key="sbt" value="2" />
@@ -213,10 +246,16 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="scala" value="695" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
+          <entry key="Scala" value="241" />
+        </counts>
+      </usages-collector>
+=======
           <entry key="Scala" value="695" />
         </counts>
       </usages-collector>
@@ -230,10 +269,18 @@
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/detectDataType.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="799">
+              <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+=======
 <<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/example/Main.scala">
@@ -261,6 +308,7 @@
               <caret line="54" column="88" selection-start-line="54" selection-start-column="88" selection-end-line="54" selection-end-column="88" />
 >>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
 >>>>>>> 47d7cd4e8d930090153f3d0ec893efeb0394b7e9
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
               <folding>
                 <element signature="e#1#33#0" expanded="true" />
               </folding>
@@ -272,18 +320,25 @@
         <entry file="file://$PROJECT_DIR$/src/main/scala/testCases.scala">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+            <state relative-caret-position="102">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+=======
+<<<<<<< HEAD
             <state relative-caret-position="221">
               <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
 =======
             <state relative-caret-position="225">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
 >>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
+=======
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -302,6 +357,7 @@
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
   </component>
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -309,6 +365,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/src/main/scala/newClass.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/example/testCases.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/testCases.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/detectDataType.scala" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="328" />
+    <option name="y" value="42" />
+    <option name="width" value="569" />
+    <option name="height" value="1000" />
+  </component>
+=======
         <option value="$PROJECT_DIR$/src/main/scala/typeDet/stringDetect" />
         <option value="$PROJECT_DIR$/src/main/scala/example/Main.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/Main.scala" />
@@ -333,11 +404,15 @@
 >>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+      <pane id="PackagesPane" />
+=======
 <<<<<<< HEAD
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
@@ -346,6 +421,7 @@
       <pane id="Scope" />
       <pane id="PackagesPane" />
 >>>>>>> 47d7cd4e8d930090153f3d0ec893efeb0394b7e9
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,6 +432,14 @@
             <path>
               <item name="typeDetect" type="b2602c69:ProjectViewProjectNode" />
               <item name="typeDetect" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="typeDetect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeDetect" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -371,10 +455,26 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="scala" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+            <path>
+              <item name="typeDetect" type="b2602c69:ProjectViewProjectNode" />
+              <item name="typeDetect" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539887009140" />
+    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+=======
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -390,6 +490,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
@@ -404,6 +505,9 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
+  <component name="RunManager">
+=======
   <component name="RunManager" selected="Application.dataTypeDetect">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -445,6 +549,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
     <configuration name="newClass" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="newClass" />
       <module name="typeDetect" />
@@ -452,6 +557,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.newClass" />
+=======
     <configuration name="Run the program" type="SbtRunConfiguration" factoryName="sbt Task">
       <setting name="tasks" value="~run" />
       <setting name="vmparams" value="-Xms512M -Xmx1024M -Xss1M -XX:+CMSClassUnloadingEnabled" />
@@ -473,6 +583,7 @@
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
       </list>
     </recent_temporary>
   </component>
@@ -489,11 +600,19 @@
           <value>
             <list>
               <ExternalProjectPojo>
+<<<<<<< HEAD
+                <option name="name" value="typedetect [file:/C:/Users/mercy/Documents/GitHub/typeDetect/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="typedetect-build [file:/C:/Users/mercy/Documents/GitHub/typeDetect/]" />
+=======
                 <option name="name" value="typedetect [file:/D:/typeDetect/]" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
               <ExternalProjectPojo>
                 <option name="name" value="typedetect-build [file:/D:/typeDetect/]" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
                 <option name="path" value="$PROJECT_DIR$/project" />
               </ExternalProjectPojo>
             </list>
@@ -503,16 +622,61 @@
     </option>
     <option name="modificationStamps">
       <map>
+<<<<<<< HEAD
+        <entry key="$PROJECT_DIR$" value="3079761452392" />
+=======
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
         <entry key="$PROJECT_DIR$/build.sbt" value="3903901234" />
         <entry key="$PROJECT_DIR$/project/build.properties" value="3771982881" />
       </map>
     </option>
+<<<<<<< HEAD
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$" value="RE_IMPORT" />
+      </map>
+    </option>
+=======
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+<<<<<<< HEAD
+      <changelist id="a99a1108-6ee8-47b6-bb62-893e14b2eed4" name="Default Changelist" comment="" />
+      <created>1539880924052</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539880924052</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.071428575" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="11" />
+=======
       <changelist id="9284b5d1-4bf0-44db-88b3-f91761654719" name="Default Changelist" comment="changed naming convention" />
       <created>1536591491250</created>
       <option name="number" value="Default" />
@@ -564,10 +728,18 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="12" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="sbt" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+=======
       <window_info anchor="right" id="sbt" order="4" weight="0.3298969" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Maven Projects" order="6" />
@@ -606,12 +778,22 @@
       <window_info anchor="right" id="sbt" order="6" weight="0.3298969" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/scala/detectDataType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="47" column="28" lean-forward="true" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
+          <folding>
+            <element signature="e#1#33#0" expanded="true" />
+          </folding>
+=======
     <entry file="file://$PROJECT_DIR$/src/main/scala/typeDet/stringDetect" />
     <entry file="file://$PROJECT_DIR$/project/build.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -646,11 +828,16 @@
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
 >>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/testCases.scala">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+=======
 <<<<<<< HEAD
         <state relative-caret-position="255">
           <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
@@ -666,10 +853,13 @@
             <element signature="e#1#33#0" expanded="true" />
           </folding>
 >>>>>>> df993aad897aac43d829e00449ba5ff739dfcedc
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
         </state>
       </provider>
     </entry>
   </component>
+<<<<<<< HEAD
+=======
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
@@ -747,4 +937,5 @@
       </state>
     </states>
   </component>
+>>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
 </project>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0mInvalidating \Users\nekesamercy\.sbt\boot\scala-2.12.6\lib\scala-library.jar: class scala.Int now provided by C:\Users\Nekesa\.sbt\boot\scala-2.12.6\lib\scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
@@ -38,30 +39,33 @@
 [0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
 [0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
 =======
+=======
+>>>>>>> 604a69297624002c501490ab7494df9d41234791
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
-[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(D:\typeDetect\src\main\scala\Main.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala, /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/testCases.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(dataTypeDetect, testCases)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(dataTypeDetect)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(dataTypeDetect, testCases)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/dataTypeDetect.scala, /Users/nekesamercy/IdeaProjects/typeDetect/src/main/scala/testCases.scala)[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to /Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.2.1:compile for Scala 2.12.6[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 8518dfb for Scala compiler version 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(dataTypeDetect)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala)[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.3:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.1.3:compile for Scala 2.12.6[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 195fefb5 for Scala compiler version 2.12.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	/Users/nekesamercy/.sbt/boot/scala-2.12.6/lib/scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes;C:\Users\mercy\.sbt\boot\scala-2.12.6\lib\scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+<<<<<<< HEAD
 [0m[[0m[0mdebug[0m] [0m[0m	/Users/nekesamercy/IdeaProjects/typeDetect/target/scala-2.12/classes[0m
 [0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.916276133 s[0m
 [0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
@@ -92,3 +96,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
 >>>>>>> 10022312d52277a063dac444db5f5124c7fceb89
 >>>>>>> 954f47c22fd12231070f7e290a0a743bc7767d4c
+=======
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mCompilation failed (CompilerInterface)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+>>>>>>> 604a69297624002c501490ab7494df9d41234791

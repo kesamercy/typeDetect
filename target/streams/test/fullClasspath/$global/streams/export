@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\typeDetect\target\scala-2.12\test-classes;D:\typeDetect\target\scala-2.12\classes;C:\Users\Nekesa\.sbt\boot\scala-2.12.6\lib\scala-library.jar
+=======
+C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\test-classes;C:\Users\mercy\Documents\GitHub\typeDetect\target\scala-2.12\classes;C:\Users\mercy\.sbt\boot\scala-2.12.6\lib\scala-library.jar;C:\Users\mercy\.ivy2\cache\org.specs2\specs2-core_2.12\jars\specs2-core_2.12-4.3.4.jar;C:\Users\mercy\.ivy2\cache\org.specs2\specs2-matcher_2.12\jars\specs2-matcher_2.12-4.3.4.jar;C:\Users\mercy\.ivy2\cache\org.specs2\specs2-common_2.12\jars\specs2-common_2.12-4.3.4.jar;C:\Users\mercy\.ivy2\cache\org.specs2\specs2-fp_2.12\jars\specs2-fp_2.12-4.3.4.jar;C:\Users\mercy\.sbt\boot\scala-2.12.6\lib\scala-reflect.jar;C:\Users\mercy\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.12\bundles\scala-parser-combinators_2.12-1.1.1.jar;C:\Users\mercy\.ivy2\cache\org.scala-lang.modules\scala-xml_2.12\bundles\scala-xml_2.12-1.1.0.jar;C:\Users\mercy\.ivy2\cache\org.scala-sbt\test-interface\jars\test-interface-1.0.jar
+>>>>>>> 604a69297624002c501490ab7494df9d41234791
