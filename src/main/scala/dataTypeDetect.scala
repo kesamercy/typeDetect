@@ -15,7 +15,7 @@ object dataTypeDetect {
   )
 
   //method to determine / guess the dataType of a string
-  def guessType(data:Seq[String]): String = data {
+  def guessType(data:Seq[String]): (String, Int) = {
 
     // use find all to return the values for the data types
     val checkTypes = findAllTypes(data) //- this should retunr a collection of data sets
@@ -23,6 +23,12 @@ object dataTypeDetect {
     // determine the max of the dataTypes and return the dataType of the highest probability.
     checkTypes.maxBy(numTypes => numTypes._2 )
 
+    //incase the number is the same for two values, how does this method handle that?
+//    if(numTypes == 2) {
+//
+//
+//
+//    }
   }// end guess
 
   def findAllTypes(data: Seq[String]): Map[String, Int] = {
@@ -57,10 +63,6 @@ object dataTypeDetect {
 
 
 /*return one type of data for the most frequent data set
-
-    try this on a much larger data set  - new file that runs the new test case with the larger data
-
-    new class for the larger tests of data set. instead of writing the data, have a file that reads the data for testing
 
     create a new class that uses my code
 
