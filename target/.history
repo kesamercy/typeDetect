@@ -28,3 +28,4 @@ all {file:/Users/nekesamercy/IdeaProjects/typeDetect/}typedetect/products {file:
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Nekesa/AppData/Local/Temp/sbt-structure3882.xml; session clear-all
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Nekesa/AppData/Local/Temp/sbt-structure898.xml; session clear-all
 ;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/Nekesa/AppData/Local/Temp/sbt-structure3018.xml; session clear-all
+testOnly TypeDetectTest

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
 <ivy-report version="1.0">
@@ -11,3 +12,18 @@
 	<dependencies>
 	</dependencies>
 </ivy-report>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="typedetect$sources"
+		revision="0.1"
+		conf="plugin"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190108121146"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>
+>>>>>>> 006c280d33f456fc82fffe0fea773e35a2e64249
