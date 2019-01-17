@@ -15,26 +15,21 @@ object dataTypeDetect {
   )
 
   //method to determine / guess the dataType of a string
-  def guessType(data:Seq[String]): (String, Int) = {
+  def guessType(data:Seq[String]): String = data { //return the label
 
     // use find all to return the values for the data types
     val checkTypes = findAllTypes(data) //- this should retunr a collection of data sets
     
     // determine the max of the dataTypes and return the dataType of the highest probability.
-    checkTypes.maxBy(numTypes => numTypes._2 )
+    val finalType:(String, Int) = checkTypes.maxBy(numTypes => numTypes._2)
 
-    //incase the number is the same for two values, how does this method handle that?
-//    if(numTypes == 2) {
-//
-//
-//
-//    }
+    return finalType._1
+
   }// end guess
 
   def findAllTypes(data: Seq[String]): Map[String, Int] = {
 
     (for( (typeName:String, regex:Regex) <- chekXpression ) yield{
-      println(typeName)
 
       //instead of print, return the values
       val count = findType(regex, data)
@@ -43,11 +38,9 @@ object dataTypeDetect {
       var dataType = typeName;
       var numType = count;
 
-      println("Found this "+numType+" "+dataType+"(s)")
+      println("Found "+dataType+ "(s)"+" "+ numType)
       (dataType,numType)
      }).toMap
-
-    //save the values in an array
 
   }// end def
 
@@ -62,7 +55,8 @@ object dataTypeDetect {
 }// end dataTypeDetect
 
 
-/*return one type of data for the most frequent data set
+/*
+    return one type of data for the most frequent data set
 
     create a new class that uses my code
 
