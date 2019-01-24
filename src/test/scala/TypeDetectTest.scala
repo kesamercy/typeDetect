@@ -4,86 +4,103 @@ import java.io._
 
 class  TypeDetectTest extends Specification {
 
-  //the mehtod had already been written that enable reading dsta from csv. that is the smae one that was sent through the chat
-
-  //get the daat to read from an external file
-
 
   //count integer method works but it needs to read all data. it's only reading one line.
 
   //reader.all() - doesnt seem to work
 
-
-
   // all i need to do is figure out how to read the csv files correctly other wise the tests seem to be working
 
   "The Type Detector" should {
 
+
+//
+
+//          reader.close()
+
+
     "Count Integers" >> {
 
       val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\int_test.csv"))
-//
-//      reader.all()
-//
-//      reader.close()
 
-      val countInt = reader.iterator
+      //translate the format of the csv to match the format that the method expects
+
+      // call the findall types method on one column at a time
+
+      // count the number of coloums
+
+      // rudimentary method - find the size of the list. size.lenght
+
+      //get it to loook at one column then looP THROUGH the rest.
+
+      //figure out using the reader.all methd to start looking through the just one column. 
+
+
+
+
+     // val countInt = reader.iterator
       dataTypeDetect.findAllTypes(
-        countInt.next()
+       // countInt.next()
+        data = reader.all()
+
 
       ) must be havePair("Integer" -> 2)
     }
+
+
 
    "Recognize Integers" >> {
 
       val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\int_test.csv"))
 
       val intReader = reader.iterator
+
       dataTypeDetect.guessType(
         intReader.next()
 
       ) must be equalTo("Integer")
     }
 
-    /*
-   "Recognize Floats" >> {
 
-     val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\bigFloatFile.csv"))
+       "Recognize Floats" >> {
 
-     val floatReader = reader.iterator
-     dataTypeDetect.guessType(
+         val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\bigFloatFile.csv"))
 
-     floatReader.next()
+         val floatReader = reader.iterator
+         dataTypeDetect.guessType(
+         floatReader.next()
 
-     ) must be equalTo("Float")
+         ) must be equalTo("Float")
 
-   }
-
-   "Recognize Dates" >> {
-
-     val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\zs.csv"))
-
-     val dateReader = reader.iterator
-
-     dataTypeDetect.guessType(
-      dateReader.next()
-     ) must be equalTo("Date")
-   }
+       }
 
 
-   "Recognize Strings" >> {
 
-     val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\cpuspeed.csv"))
+               "Recognize Dates" >> {
 
-     val stringReader = reader.iterator
+                 val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\zs.csv"))
 
-     dataTypeDetect.guessType(
+                 val dateReader = reader.iterator
 
-       stringReader.next()
+                 dataTypeDetect.guessType(
+                  dateReader.next()
+                 ) must be equalTo("Date")
+               }
 
-     ) must be equalTo("String")
 
-   }*/
+               "Recognize Strings" >> {
+
+                 val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\cpuspeed.csv"))
+
+                 val stringReader = reader.iterator
+
+                 dataTypeDetect.guessType(
+
+                   stringReader.next()
+
+                 ) must be equalTo("String")
+
+               }
 
   }
 }

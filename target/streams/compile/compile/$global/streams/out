@@ -1,6 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:24:21: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : (String, Int)[0m
-[0m[[0m[31merror[0m] [0m[0m required: Int[0m
-[0m[[0m[31merror[0m] [0m[0m    checkTypes.maxBy(numTypes => numTypes._2 )[0m
-[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\mercy\Documents\GitHub\typeDetect\src\main\scala\dataTypeDetect.scala:21:35: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Seq[Int][0m
+[0m[[0m[31merror[0m] [0m[0m required: Seq[String][0m
+[0m[[0m[31merror[0m] [0m[0m    val checkTypes = findAllTypes(data) //- this should retunr a collection of data sets[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
