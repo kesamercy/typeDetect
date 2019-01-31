@@ -3,53 +3,42 @@ import com.github.tototoshi.csv._
 import java.io._
 
 class  TypeDetectTest extends Specification {
-
-
-  //count integer method works but it needs to read all data. it's only reading one line.
-
-  //reader.all() - doesnt seem to work
-
-  // all i need to do is figure out how to read the csv files correctly other wise the tests seem to be working
-
+  /*current goal:
+  *
+  * translate the format of the csv to match the format that the method expects
+  * call the findall types method on one column at a time
+  *
+  * */
   "The Type Detector" should {
-
-
-//
-
-//          reader.close()
-
 
     "Count Integers" >> {
 
-      val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\int_test.csv"))
+      //open the csv file
+      val reader = CSVReader.open(new File("C:\\Users\\nm293\\IdeaProjects\\typeDetect\\src\\test\\scala\\test_data\\int_test.csv"))
 
-      //translate the format of the csv to match the format that the method expects
+      //read all lines
+      val allLines = reader.all()
 
-      // call the findall types method on one column at a time
+      //skip the first line of the csv which is the header
+      val skipHeader = allLines.drop(1)
 
-      // count the number of coloums
+      //loop through each line of the file
+      skipHeader.foreach(
 
-      // rudimentary method - find the size of the list. size.lenght
+        println
 
-      //get it to loook at one column then looP THROUGH the rest.
+      )
 
-      //figure out using the reader.all methd to start looking through the just one column. 
+      //read the number of values on the line
+      val countInt = skipHeader.iterator
 
-
-
-
-     // val countInt = reader.iterator
       dataTypeDetect.findAllTypes(
-       // countInt.next()
-        data = reader.all()
-
-
+       countInt.next()
       ) must be havePair("Integer" -> 2)
     }
 
 
-
-   "Recognize Integers" >> {
+   /*"Recognize Integers" >> {
 
       val reader = CSVReader.open(new File("C:\\Users\\mercy\\Documents\\GitHub\\typeDetect\\src\\test\\scala\\test_data\\int_test.csv"))
 
@@ -101,6 +90,6 @@ class  TypeDetectTest extends Specification {
                  ) must be equalTo("String")
 
                }
-
+*/
   }
 }
