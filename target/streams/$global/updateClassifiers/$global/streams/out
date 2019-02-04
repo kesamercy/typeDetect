@@ -753,20 +753,20 @@
 [debug] == resolving dependencies default#typedetect$sources;0.1->org.scala-lang#scala-reflect;2.12.6 [scala-tool->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.3.4!specs2-matcher_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.6!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] com.github.tototoshi#scala-csv_2.12;1.3.5!scala-csv_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
-[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.3.4!specs2-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-matcher_2.12;4.3.4!specs2-matcher_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.specs2#specs2-fp_2.12;4.3.4!specs2-fp_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.specs2#specs2-core_2.12;4.3.4!specs2-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.specs2#specs2-common_2.12;4.3.4!specs2-common_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.6!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.6!scala-reflect.jar(src)
 [debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] :: resolution report :: resolve 212ms :: artifacts dl 12ms
+[debug] :: resolution report :: resolve 200ms :: artifacts dl 6ms
 [debug] 	report for default#typedetect$sources;0.1 compile produced in C:\Users\nm293\IdeaProjects\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-compile.xml
 [debug] 	report for default#typedetect$sources;0.1 runtime produced in C:\Users\nm293\IdeaProjects\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-runtime.xml
 [debug] 	report for default#typedetect$sources;0.1 test produced in C:\Users\nm293\IdeaProjects\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-test.xml
@@ -778,4 +778,4 @@
 [debug] 	report for default#typedetect$sources;0.1 plugin produced in C:\Users\nm293\IdeaProjects\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-plugin.xml
 [debug] 	report for default#typedetect$sources;0.1 pom produced in C:\Users\nm293\IdeaProjects\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-pom.xml
 [debug] 	report for default#typedetect$sources;0.1 scala-tool produced in C:\Users\nm293\IdeaProjects\typeDetect\target\scala-2.12\resolution-cache\reports\default-typedetect$sources-scala-tool.xml
-[debug] 	resolve done (212ms resolve - 12ms download)
+[debug] 	resolve done (200ms resolve - 6ms download)

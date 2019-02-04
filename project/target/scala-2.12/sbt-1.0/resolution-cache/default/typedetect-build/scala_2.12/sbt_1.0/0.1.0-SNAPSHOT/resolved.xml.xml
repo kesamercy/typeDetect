@@ -4,7 +4,7 @@
 		module="typedetect-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190131124933"
+		publication="20190204111237"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

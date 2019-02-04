@@ -23,18 +23,27 @@ class  TypeDetectTest extends Specification {
       val skipHeader = allLines.drop(1)
 
       //loop through each line of the file
-      skipHeader.foreach(
+      val columnarData = skipHeader.foldLeft(Seq[Seq[String]]())((init, currentRow) => {
 
-        println
+        init match {
+          case Seq() => currentRow.map(cell => Seq(cell))
+          case nonEmptySeq => currentRow.zipWithIndex.map(cellidx => nonEmptySeq(cellidx._2) :+ s"${cellidx._1}")
+          case _ => init
+        }
 
-      )
+      })
 
-      //read the number of values on the line
-      val countInt = skipHeader.iterator
+      val colTypes = columnarData.map(column => dataTypeDetect.findAllTypes(column) )
 
-      dataTypeDetect.findAllTypes(
-       countInt.next()
-      ) must be havePair("Integer" -> 2)
+      println(colTypes.mkString("\n") )
+
+      colTypes(0) must be havePair("Integer" -> 4)
+      colTypes(1) must be havePair("Integer" -> 4)
+
+
+
+
+
     }
 
 
