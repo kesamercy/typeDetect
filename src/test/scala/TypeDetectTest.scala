@@ -40,12 +40,7 @@ class  TypeDetectTest extends Specification {
       colTypes(0) must be havePair("Integer" -> 4)
       colTypes(1) must be havePair("Integer" -> 4)
 
-
-
-
-
     }
-
 
    /*"Recognize Integers" >> {
 
