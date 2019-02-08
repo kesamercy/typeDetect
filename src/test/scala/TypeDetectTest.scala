@@ -22,12 +22,12 @@ class  TypeDetectTest extends Specification {
       //skip the first line of the csv which is the header
       val skipHeader = allLines.drop(1)
 
-      //loop through each line of the file
+      //read the data by the coloumn
       val columnarData = skipHeader.foldLeft(Seq[Seq[String]]())((init, currentRow) => {
 
         init match {
           case Seq() => currentRow.map(cell => Seq(cell))
-          case nonEmptySeq => currentRow.zipWithIndex.map(cellidx => nonEmptySeq(cellidx._2) :+ s"${cellidx._1}")
+          case nonEmptySeq => (currentRow.zipWithIndex).map(cellidx => nonEmptySeq(cellidx._2) :+ cellidx._1)
           case _ => init
         }
 
@@ -97,3 +97,18 @@ class  TypeDetectTest extends Specification {
 */
   }
 }
+
+/*
+* Next plan:
+*
+* test and confirm commented parts work
+* import large data sets... follow the nyc data set link
+* get the vm profiler to do optimization - so you are able to see how fast it runs..
+*
+*
+* FROM NOTES!---
+* grab a large data set and see how long it takes using the VM profiler
+grab the first 100 lines of the file form the nyc data file and test it using
+the code you have wrtieent so you can see the run time from the vm profiler
+*
+* */
